@@ -24,8 +24,8 @@ import java.util.concurrent.TimeoutException;
  * @date 2020-12-16 16:39
  */
 @EnableCaching
-@SpringBootApplication
 @EnableEurekaClient
+@SpringBootApplication
 public class IndexDataApplication {
 	public static void main(String[] args) {
 		int port = 0;

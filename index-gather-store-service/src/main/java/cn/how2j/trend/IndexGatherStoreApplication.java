@@ -12,10 +12,11 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-//springBoot启动器
-@SpringBootApplication
 //开启
 @EnableEurekaClient
+//springBoot启动器
+@SpringBootApplication
+
 //开启断路器
 @EnableHystrix
 //开启reids

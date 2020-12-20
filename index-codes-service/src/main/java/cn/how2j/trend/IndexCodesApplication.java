@@ -24,8 +24,9 @@ import java.util.concurrent.TimeoutException;
  * @Description:
  * @date 2020-12-16 15:04
  */
-@SpringBootApplication
+
 @EnableEurekaClient
+@SpringBootApplication
 @EnableCaching
 public class IndexCodesApplication {
 	public static void main(String[] args) {

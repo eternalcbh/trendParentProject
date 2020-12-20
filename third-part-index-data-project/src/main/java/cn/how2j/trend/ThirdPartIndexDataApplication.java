@@ -12,8 +12,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
  * @author cbh
  */
-@SpringBootApplication
 @EnableEurekaClient
+@SpringBootApplication
 public class ThirdPartIndexDataApplication {
     public static void main(String[] args) {
         int port = 8090;
