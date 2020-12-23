@@ -10,5 +10,13 @@ spring:
 zuul:
   routes:
     api-a:
-      path: /api-codes/**
+      path: /api-codes/**L
       serviceId: INDEX-CODES-SERVICE
+
+    api-b:
+      path: /api-backtest/**
+      serviceId: TREND-TRADING-BACKTEST-SERVICE
+
+    api-c:
+      path: /api-view/**
+      serviceId: TREND-TRADING-BACKTEST-VIEW
