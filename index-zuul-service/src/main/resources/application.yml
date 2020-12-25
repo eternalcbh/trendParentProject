@@ -10,7 +10,7 @@ spring:
 zuul:
   routes:
     api-a:
-      path: /api-codes/**L
+      path: /api-codes/**
       serviceId: INDEX-CODES-SERVICE
 
     api-b:
